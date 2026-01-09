@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: auto;
+    max-width: 1480px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 120px;
+    margin-right: 60px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+nav .link a{
+    text-decoration: none;
+    color: #000000;
+    width: 67px;
+    height: 24px;
+    gap: auto;
+    font-style: bold;
+}
+nav #logo img{
+    width: 139px;
+    height: 60px;
+}
+nav .button_nav button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: semibold;
+    border-radius: 4px;
+    background-color: #30b868;
+    border: none;
+    width: 164px;
+    height: 44px;
+
+}
+.font-intel {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
