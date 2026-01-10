@@ -23,7 +23,6 @@ section#banner-content{
 .early-access button{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
     font-family: 'Inter';
     font-size: 16px;
     color: #30b868;
@@ -34,11 +33,13 @@ section#banner-content{
     align-items: center;
     padding : 8px 12px;
     margin: auto;
-    font-style: bold;
-   
+    font-weight: semibold; 
+    border: none; 
 }
-.fa-solid fa-bullseye{
-    font-weight: 700px;
+
+
+.fa-bullseye {
+    margin-right: 2px;
 }
 section#banner h1{
     margin-top: 16px;
@@ -83,23 +84,21 @@ section#banner .two-buttons{
 
 }
 section#banner .two-buttons #first{
-    color: #FFFFFF;
+   color: #FFFFFF;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold; 
     border-radius: 4px;
     background-color: #30b868;
     border: none;
     width: 251px;
     height: 52px;
     align-items: center;
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
 
 }
-section#banner .two-buttons #first#first-button{
-    width:189px;
-    height: 19px;
-    background-color: #30b868;
 
-}
 
 section#banner .two-buttons #second{
     font-family: 'Inter', sans-serif;
@@ -109,13 +108,16 @@ section#banner .two-buttons #second{
     border: 1px solid #FFFFFF;
     width: 198px;
     height: 52px;
-     align-items: center;
-     font-style: bold;
+    align-items: center;
+    font-weight: bold; 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
 }
-section#banner .two-buttons #second#second-button{
-    width:136px;
-    height: 19px;
-    background-color: transparent;
+#first button,#second button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+}
 
-}
 
