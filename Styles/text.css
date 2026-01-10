@@ -1,0 +1,26 @@
+section.some-text {
+    width:100%;
+    max-width: 1360px;
+    height: 152px;
+    padding-top: 16px;
+    margin: 0 120px;
+}
+section.some-text .bigboy {
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    color : #001931;
+    text-align: center;
+    padding: 0 32px;
+}
+section.some-text .littleboy {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color : #627382;
+    text-align: center;
+    margin-top: 16px;
+    text-align: center;
+}
