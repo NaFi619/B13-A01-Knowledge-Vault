@@ -1,24 +1,28 @@
 nav{
+   
     display: flex;
     justify-content: space-around;
     gap: auto;
-    max-width: 1480px;
+    width:100%;
+    max-width: 1600px;
     background-color: #FFFFFF;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 120px;
-    margin-right: 60px;
+    height: auto;
+   
 }
 nav ul{
     list-style-type: none;
     display: flex;
     gap: 32px;
-    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    width: 365px;
+    height: 24px;
+
 }
 nav .link a{
     text-decoration: none;
     color: #000000;
-    width: 67px;
+    width: 365px;
     height: 24px;
     gap: auto;
     font-style: bold;
@@ -36,6 +40,10 @@ nav .button_nav button{
     border: none;
     width: 164px;
     height: 44px;
+    align-items: center;
+
+
+
 
 }
 .font-intel {
