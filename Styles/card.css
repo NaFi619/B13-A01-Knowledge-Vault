@@ -6,10 +6,9 @@
     word-wrap: break-word;
     gap: 24px;
     padding: auto;
-    margin: 44px 0px 120px 85px;
+    margin: auto;
     width: 100%;
-     max-width: 1360px;
-     height: 300px;
+    height: 300px;
 }
 .first-card img{
     background-color: #f95555;

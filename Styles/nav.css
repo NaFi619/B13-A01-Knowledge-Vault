@@ -1,14 +1,15 @@
-nav{
-   
+.main-navbar{
     display: flex;
     justify-content: space-around;
     gap: auto;
     width:100%;
-    max-width: 1600px;
     background-color: #FFFFFF;
-    height: auto;
+    height: 92px;
+    align-items: center;
    
+
 }
+
 nav ul{
     list-style-type: none;
     display: flex;
