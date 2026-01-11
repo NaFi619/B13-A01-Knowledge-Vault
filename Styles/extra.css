@@ -1,0 +1,22 @@
+.extra{
+    font-family: 'Inter';
+    width: 100%;
+    max-width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    padding:0 auto;
+    background-color: #f7f6f2;
+    border-radius: 12px;
+}
+
+.button_nav button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: semibold;
+    border-radius: 4px;
+    background-color: #30b868;
+    border: none;
+    width: 164px;
+    height: 44px;
+}
+
