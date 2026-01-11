@@ -6,6 +6,7 @@
     word-wrap: break-word;
     gap: 24px;
     padding: auto;
+    margin: 44px 120px 120px 120px;
 }
 .card img{
     background-color: #f95555;
@@ -43,7 +44,7 @@
      width: 100%;
      max-width: 322px;
      height: 300px;
-     padding: auto;
+    
      
     
 }
@@ -60,13 +61,13 @@
      width: 100%;
      max-width: 322px;
      height: 300px;
-     padding: auto;
+    
 }
 .fourth-card{
      border: #001931 1px solid;
      width: 100%;
      max-width: 322px;
      height: 300px;
-    padding: auto;
+    
 }
 
