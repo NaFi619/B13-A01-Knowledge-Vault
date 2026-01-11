@@ -1,0 +1,49 @@
+
+.footer {
+    width: 100%;
+    max-width: 1600px;
+    height: 348px;
+    background-color: #001931;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.footer-div {
+    width: 100%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px;
+}
+
+#footer-image {
+    width: 120px;
+    height: 60px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#footer-link-name {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
