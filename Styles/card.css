@@ -1,0 +1,72 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    gap: 24px;
+    padding: auto;
+}
+.card img{
+    background-color: #f95555;
+    width: 32px;
+    height: 32px;
+    
+}
+.aa{
+     font-family: 'Inter';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: auto;
+    color : #001931;
+    text-align: center;
+    margin-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.bb{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color : #627382;
+    text-align: center;
+    margin-top: 16px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+
+}
+.first-card{
+     border: #001931 1px solid; 
+     width: 100%;
+     max-width: 322px;
+     height: 300px;
+     padding: auto;
+     
+    
+}
+.second-card{
+     border: #001931 1px solid;
+     width: 100%;
+     max-width: 322px;
+     height: 300px;
+     
+
+}
+.third-card{
+     border: #001931 1px solid;
+     width: 100%;
+     max-width: 322px;
+     height: 300px;
+     padding: auto;
+}
+.fourth-card{
+     border: #001931 1px solid;
+     width: 100%;
+     max-width: 322px;
+     height: 300px;
+    padding: auto;
+}
+
