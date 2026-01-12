@@ -44,3 +44,12 @@
     color: #ffffff;
     cursor: pointer;
 }
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding:auto;
+}
+.copyright-text{
+    color: #ffffff;
+}
