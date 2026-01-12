@@ -63,8 +63,8 @@
     font-family: 'Inter';
     display: flex;
     gap: 4px;
-    flex-direction: row;
     width: 700px;
+    padding-bottom: 10px;
 }
 .lo{
     color: #001931;
