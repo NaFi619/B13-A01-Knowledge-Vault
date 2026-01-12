@@ -35,7 +35,10 @@ section#banner-content{
     font-weight: semibold; 
     border: none; 
 }
-
+.early-access button:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
 
 .fa-bullseye {
     margin-right: 2px;
@@ -99,6 +102,16 @@ section#banner .two-buttons{
     gap: 10px; 
     cursor: pointer;
 }
+.icon-button:hover {
+    background-color: #259856;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.icon-button2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
 .icon-button2 {
     font-family: 'Inter';
   display: flex;
@@ -114,6 +127,12 @@ section#banner .two-buttons{
     width: 251px;
     height: 52px;
     gap: 10px; 
+}
+
+.icon-button2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    
 }
 
 .button-icon {

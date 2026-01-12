@@ -29,4 +29,8 @@
     width: 164px;
     height: 44px;
 }
+.extra .button_nav button:hover {
+    background-color: #259856;
+    cursor: pointer;
+}
 

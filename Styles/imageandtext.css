@@ -66,10 +66,15 @@
     width: 700px;
     padding-bottom: 10px;
 }
+
 .lo{
     color: #001931;
     font-size: 16px;
     margin: 0;
+}
+.check-check:hover .lo {
+    color: #30b868;
+    cursor: pointer;
 }
 .checkmark {
     color: #30b868;

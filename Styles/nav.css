@@ -28,6 +28,10 @@ nav .link a{
     gap: auto;
     font-style: bold;
 }
+nav .link a:hover {
+    color: #30b868;
+    
+}
 nav #logo img{
     width: 139px;
     height: 60px;
@@ -42,6 +46,10 @@ nav .button_nav button{
     width: 164px;
     height: 44px;
     align-items: center;
+}
+nav .button_nav button:hover {
+    background-color: #259856;
+    cursor: pointer;
 }
 .font-intel {
   font-family: "Inter", sans-serif;
