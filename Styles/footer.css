@@ -1,24 +1,22 @@
 .footer {
     width: 100%;
-    height: 348px;
     background-color: #001931;
-    display: flex;
-    justify-content: center;
     font-family: 'Inter';
+    padding: 80px 0 30px;
 }
 
 .footer-div {
-    width: 100%;
     max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
 }
 
 #footer-image {
     width: 139px;
-    height: 60px;
+    height: auto;
 }
 
 .footer-right {
@@ -30,13 +28,12 @@
 
 #footer-link-name {
     font-size: 20px;
-    line-height: 28px;
     color: #ffffff;
 }
 
 .footer-icons {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .fa-brands {
@@ -44,12 +41,17 @@
     color: #ffffff;
     cursor: pointer;
 }
-.copyright{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding:auto;
+
+.copyright {
+    max-width: 1360px;
+    margin: 50px auto 0;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-.copyright-text{
+
+.copyright-text {
     color: #ffffff;
+    font-size: 14px;
+    opacity: 0.8;
 }
